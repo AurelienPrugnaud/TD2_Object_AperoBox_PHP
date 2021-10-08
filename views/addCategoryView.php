@@ -15,7 +15,7 @@
 	</div>
 </header>
 <main class="container">
-	<form action="http://td2objecftaperobox/dispatcher.php/dispatcher.php/?page=addCategory" method="POST">
+	<form action="/dispatcher.php/?page=addCategory" method="POST">
 		<p>
 			<label for="name" class="form-label">Nom de la catégorie</label>
 			<input type="text" id="name" name="name" class="form-control" value=""/>

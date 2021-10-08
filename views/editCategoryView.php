@@ -17,9 +17,11 @@
 </header>
 <main class="container">
     <form action="http://td2objecftaperobox/dispatcher.php/?page=editCategory" method="POST">
+        <input type="hidden" name="index" value="<?php echo $_GET['index'] ?>">
         <p>
             <label for="name" class="form-label">Nom</label>
-            <input type="text" id="name" name="name" class="form-control" value=""/>
+            <input type="text" id="name" name="name" class="form-control" 
+            value="<?php if(isset($upCategorie) AND !empty($upCategorie->name)){ echo $upCategorie->name; } ?>"/>
         </p>
         <input class="btn btn-dark" type="submit" value="Editer" name="validate"/>
     </form>

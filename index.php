@@ -18,7 +18,7 @@
 </header>
     <main class="container">
         <h2 class="mb-3">Bonjour <?php echo $_SESSION['email']?></h2>
-        <a class="btn btn-dark mb-3" href="">Ajouter un produit</a>
+        <a class="btn btn-dark mb-3" href="/dispatcher.php/?page=addCategory">Ajouter un produit</a>
         <table class="table">
             <thead class="table-dark">
                 <td>Nom</td>

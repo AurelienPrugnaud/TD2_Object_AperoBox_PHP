@@ -9,7 +9,9 @@
 		4 => new Categories('Sucrées'),
 		5 => new Categories('Salées')
 	);
-	if(isset($_POST) && ($_POST['name']>=3 && $_POST['name']<=15)):
+
+
+	if(isset($_POST['name']) && (strlen($_POST['name'])>=3 && strlen($_POST['name'])<=15)):
 		$newCategories = new Categories($_POST['name']);
 		$newCategories->addNewCategory($tabCategories);
 	else:
