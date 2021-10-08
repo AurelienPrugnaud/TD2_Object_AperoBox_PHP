@@ -5,7 +5,10 @@
 			include('controllers/authController.php');
 			break;
 		case 'home':
-			include('index.php');
+			include('controllers/categoriesController.php');
+			break;
+		case 'addCategory':
+			include('controllers/addCategoryController.php');
 			break;
 		default:
 			include('');
