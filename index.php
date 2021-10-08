@@ -28,7 +28,8 @@
             <?php foreach($tabCategories as $index => $category):?>
                 <tr>
                     <td><?php echo $category->name?></td>
-                    <td><a class="btn btn-outline-danger" href="http://td2objecftaperobox/dispatcher.php/dispatcher.php/?page=home&?index=<?php echo $index ?>">Supprimer</a></td>
+                    <td><a class="btn btn-outline-danger" href="/dispatcher.php/?page=remove&index=<?php echo $index ?>">Supprimer</a>
+                    <a class="btn btn-outline-danger" href="/dispatcher.php/?page=editCategory&index=<?php echo $index ?>">Modifier</a></td>
                 </tr>
             <?php endforeach; ?>
             </tbody>

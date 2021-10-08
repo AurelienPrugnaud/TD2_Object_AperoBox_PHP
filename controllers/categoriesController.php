@@ -9,8 +9,5 @@
 		4 => new Categories('Sucrées'),
 		5 => new Categories('Salées')
 	);
-	$removeCategory = new Categories('');
-	//$removeCategory = $tabCategories[$_GET['index']];
-	$removeCategory->deleteCategory($tabCategories, $_GET['index']);
 
 	include('index.php');
