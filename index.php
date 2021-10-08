@@ -9,11 +9,14 @@
 	<title>Apero box</title>
 </head>
 <body>
-    <header>
+<header>
+    <div class="bg-dark text-light mb-3 p-1 position relative">
+        <h1 class="text-center">Apero Box</h1>
+        <a href="http://td2objecftaperobox/dispatcher.php/?page=auth&?disconnection=1" title="disconnection" class="btn btn-outline-light position-absolute end-0 top-0 m-2">Me deconnecter</a>
 
-    </header>
+    </div>
+</header>
     <main>
-        <a href="http://td2objecftaperobox/dispatcher.php/?page=auth&?disconnection=1" title="disconnection">Me deconnecter</a>
     </main>
 </body>
 </html>
